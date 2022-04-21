@@ -6,7 +6,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
       "price": "10.00",
       "promotion": "0.00",
-      "active": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci."
+      "active": true
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
       "price": "10.00",
       "promotion": "0.00",
-      "active": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci."
+      "active": true
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
       "price": "10.00",
       "promotion": "0.00",
-      "active": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci."
+      "active": false
     },
     {
       "id": 4,
@@ -30,7 +30,7 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
       "price": "10.00",
       "promotion": "0.00",
-      "active": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci."
+      "active": true
     },
     {
       "id": 5,
@@ -38,7 +38,23 @@
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
       "price": "10.00",
       "promotion": "0.00",
-      "active": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci."
+      "active": false
+    },
+    {
+      "id": 6,
+      "title": "produto 05",
+      "description": "Teste",
+      "price": "10.00",
+      "promotion": "0.00",
+      "active": true
+    },
+    {
+      "id": 8,
+      "title": "produto 05",
+      "description": "Teste",
+      "price": "10.00",
+      "promotion": "0.00",
+      "active": false
     }
   ]
 }

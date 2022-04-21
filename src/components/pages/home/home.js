@@ -1,10 +1,14 @@
 import React from 'react';
-import { Layout } from '../../layout/layout';
+import { Header } from '../../header/header';
+import { Theme } from '../../theme/theme';
+import { AiFillHome } from '../../styles/icons';
+import { MainHome } from '../../mainHome/mainHome';
 
 export const Home = () => {
   return (
-    <>
-      <Layout />
-    </>
+    <Theme>
+      <Header iconPage={<AiFillHome />} title={'Home'} subTitle={'Home page'} />
+      <MainHome />
+    </Theme>
   );
 };

@@ -1,7 +1,7 @@
 import React from 'react';
 import * as C from './styles';
 
-export const Main = () => {
+export const MainProduct = () => {
   return (
     <C.Container>
       <C.Header>

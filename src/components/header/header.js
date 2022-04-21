@@ -1,15 +1,13 @@
 import React from 'react';
 import * as C from './styles';
 
-export const Header = () => {
+export const Header = ({ iconPage, title, subTitle }) => {
   return (
     <C.Container>
-      <C.Logo>
-        <C.IconPage />
-      </C.Logo>
+      <C.Logo>{iconPage}</C.Logo>
       <C.Header>
-        <h3>Product</h3>
-        <span>Product Registration/Change</span>
+        <h3>{title}</h3>
+        <span>{subTitle}</span>
       </C.Header>
     </C.Container>
   );

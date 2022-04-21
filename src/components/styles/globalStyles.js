@@ -58,6 +58,13 @@ export default createGlobalStyle`
 
     --blue-primary: #2C8ED6;
     --blue-primary-light-hover: #33A1F2;
+
+    --turquoise-primary: #5eead4;
+    --turquoise-primary-light-hover: #0d9488;
+
+    --green-primary: '#34d399';
+    --green-primary-light-hover: '#047857';
+
     --red-primary:  #e11d48;
     --red-primary-light-hover: #f43f5e;
     --purple-primary: #8b5cf6;
