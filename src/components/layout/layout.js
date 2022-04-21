@@ -9,7 +9,6 @@ export const Layout = () => {
   return (
     <Theme>
       <C.Container>
-        <h1>layout</h1>
         <Main />
       </C.Container>
     </Theme>

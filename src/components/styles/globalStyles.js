@@ -21,6 +21,26 @@ export default createGlobalStyle`
   html {
     background: var(--primary);
   }
+  ::-webkit-scrollbar {
+    width: 5px;
+    background-color: var(--bg-primary);
+    display: none;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px var(--gray); 
+    border-radius: 10px;
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: var(--border); 
+    border-radius: 10px;
+    display: none;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--bg-secondary-darker); 
+    display: none;
+  }
   :root {
     --black: #000;
     --white: #fff;
@@ -32,6 +52,10 @@ export default createGlobalStyle`
     --bg-secondary-darker: #1E293B;
     --gray: #7A7A7A;
     --outline: #2F3336;
+
+    --bg-main: #0F172A;
+    --border:#293445 ;
+
     --blue-primary: #2C8ED6;
     --blue-primary-light-hover: #33A1F2;
     --red-primary:  #e11d48;
