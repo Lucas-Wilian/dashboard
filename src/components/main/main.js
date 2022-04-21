@@ -7,10 +7,8 @@ export const Main = () => {
       <C.Header>
         <C.Search>
           <C.IconSearch />
-          <input type='text' placeholder='Pesquisar produto' />
+          <input type='text' placeholder='Search Product' />
         </C.Search>
-
-        {/* <Button /> */}
       </C.Header>
 
       <C.TitleProduct>
@@ -29,6 +27,7 @@ export const Main = () => {
             <span>active</span>
             <div>
               <C.IconEdit />
+              <C.IconEye />
               <C.IconDelete />
             </div>
           </li>
@@ -40,6 +39,7 @@ export const Main = () => {
             <span>active</span>
             <div>
               <C.IconEdit />
+              <C.IconEye />
               <C.IconDelete />
             </div>
           </li>
@@ -51,6 +51,7 @@ export const Main = () => {
             <span>active</span>
             <div>
               <C.IconEdit />
+              <C.IconEye />
               <C.IconDelete />
             </div>
           </li>
@@ -62,6 +63,7 @@ export const Main = () => {
             <span>active</span>
             <div>
               <C.IconEdit />
+              <C.IconEye />
               <C.IconDelete />
             </div>
           </li>
@@ -73,6 +75,7 @@ export const Main = () => {
             <span>active</span>
             <div>
               <C.IconEdit />
+              <C.IconEye />
               <C.IconDelete />
             </div>
           </li>

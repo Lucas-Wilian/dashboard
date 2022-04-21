@@ -62,7 +62,6 @@ export default createGlobalStyle`
     --red-primary-light-hover: #f43f5e;
     --purple-primary: #8b5cf6;
     --purple-primary-light-hover:  #7c3aed; 
-  
     --orange-primary: #E27300;
     --orange-primary-light-hover: #FE9200;
   }

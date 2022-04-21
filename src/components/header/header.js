@@ -8,8 +8,8 @@ export const Header = () => {
         <C.IconPage />
       </C.Logo>
       <C.Header>
-        <h3>Produto</h3>
-        <span>Cadastro/Alteração de produto</span>
+        <h3>Product</h3>
+        <span>Product Registration/Change</span>
       </C.Header>
     </C.Container>
   );

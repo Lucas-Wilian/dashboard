@@ -1,5 +1,10 @@
 import styled, { css } from 'styled-components';
-import { AiFillDelete, AiFillEdit, AiOutlineSearch } from '../styles/icons';
+import {
+  AiFillDelete,
+  AiFillEdit,
+  AiFillEye,
+  AiOutlineSearch,
+} from '../styles/icons';
 
 export const Container = styled.div`
   margin: 20px;
@@ -49,6 +54,14 @@ export const IconSearch = styled(AiOutlineSearch)`
   height: 23px;
   left: 7px;
   fill: var(--blue-primary);
+`;
+
+export const IconEye = styled(AiFillEye)`
+  ${iconCSS}
+  fill: var(--blue-primary);
+  &:hover {
+    fill: var(--blue-primary-light-hover);
+  }
 `;
 
 export const IconDelete = styled(AiFillDelete)`
@@ -105,7 +118,7 @@ export const Products = styled.div`
         justify-content: space-between;
       }
       span {
-        font-weight: bold;
+        font-weight: 600;
         font-size: 16px;
       }
       &:hover {
