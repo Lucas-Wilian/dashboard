@@ -20,6 +20,21 @@ export const Area = styled.div`
   height: 100%;
   display: flex;
   flex-direction: column;
+  section {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: space-between;
+    padding: 0 15px;
+    span {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+  }
 `;
 
 export const Header = styled.div`
@@ -76,20 +91,7 @@ export const MainProduct = styled.div`
   overflow-y: auto;
   width: 100%;
   height: 460px;
-  section {
-    width: auto;
-    height: auto;
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    justify-content: space-between;
-    padding: 0 15px;
-    span {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-    }
+  
   }
   ul {
     width: auto;
@@ -128,7 +130,7 @@ export const MainProduct = styled.div`
         background: var(--border);
       }
     }
-  }
+  
 `;
 
 const iconCSS = css`

@@ -33,16 +33,16 @@ export const MainHome = () => {
           </C.ProductInfo>
         </C.Header>
         <C.User></C.User>
+        <C.TitleSection>
+          <span>Recent Products</span>
+        </C.TitleSection>
+        <section>
+          <span>Name Product</span>
+          <span>Data Update</span>
+          <span>Value Price</span>
+          <span>Status</span>
+        </section>
         <C.MainProduct>
-          <C.TitleSection>
-            <span>Recent Products</span>
-          </C.TitleSection>
-          <section>
-            <span>Name Product</span>
-            <span>Data Update</span>
-            <span>Value Price</span>
-            <span>Status</span>
-          </section>
           <ul>
             <li>
               <span>Name Product</span>
