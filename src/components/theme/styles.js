@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { V } from '../styles/variable';
 
 export const Container = styled.div`
   display: flex;
@@ -12,4 +13,5 @@ export const Area = styled.div`
   flex-direction: column;
   flex: 1;
   width: 100%;
+  padding: calc(${V.smSpacing} * 2);
 `;
