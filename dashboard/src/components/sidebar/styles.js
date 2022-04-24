@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 import { btnReset, V } from '../styles/variable';
-import { FaGhost } from '../styles/icons';
+import { AiOutlineSearch, FaGhost } from '../styles/icons';
 
 export const Container = styled.div`
   width: ${({ isOpen }) => (!isOpen ? 'auto' : V.sidebarWidth)};
@@ -9,6 +9,7 @@ export const Container = styled.div`
   height: 100vh;
   padding: ${V.lgSpacing};
   position: relative;
+  transition: 0.3s ease-in-out;
 `;
 
 export const Logo = styled.div`
@@ -20,6 +21,12 @@ export const Logo = styled.div`
   color: inherit;
   font-size: 16px;
   padding: calc(${V.smSpacing});
+`;
+
+export const LogoTitle = styled.h3`
+  margin-left: 60px;
+  text-align: center;
+  font-size: 20px;
 `;
 
 export const IconBlank = styled(FaGhost)`
@@ -50,12 +57,16 @@ export const SearchIcon = styled.button`
   ${btnReset}
   padding: calc(${V.mdSpacing} - 2px) ${V.mdSpacing};
   display: flex;
-  fill: #000;
+
   /* path: red; */
   cursor: pointer;
   svg {
     font-size: 20px;
   }
+`;
+
+export const IconSearch = styled(AiOutlineSearch)`
+  fill: ${({ theme }) => theme.bluePrimary};
 `;
 
 export const Divider = styled.div`
@@ -145,7 +156,7 @@ export const SideBarButton = styled.div`
   ${btnReset}
   position: absolute;
   top: ${V.xxlSpacing};
-  right: ${({ isOpen }) => (isOpen ? '-16px' : '-48px')};
+  right: ${({ isOpen }) => (isOpen ? '-16px' : '-15px')};
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -157,4 +168,5 @@ export const SideBarButton = styled.div`
   justify-content: center;
   cursor: pointer;
   transform: ${({ isOpen }) => (!isOpen ? 'rotate(180deg)' : 'initial')};
+  transition: 0.3s ease-in-out;
 `;

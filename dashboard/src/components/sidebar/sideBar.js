@@ -1,14 +1,13 @@
 import React, { useContext, useRef, useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import { ThemeContext } from 'styled-components';
+// import { ButtonStyle } from '../../components/buttonStyle/buttonStyle';
 import {
   AiFillHome,
   AiFillBell,
   FaShoppingCart,
   FaUserAlt,
-  AiOutlineSearch,
   AiOutlineLeft,
-  FaGhost,
 } from '../styles/icons';
 import * as C from './styles';
 
@@ -65,16 +64,27 @@ export const SideBar = () => {
           <AiOutlineLeft />
         </C.SideBarButton>
       </>
-      <C.Logo style={!sidebarOpen ? { width: 'fit-content' } : {}}>
-        <C.IconBlank />
-        {/* <span>BLANK</span> */}
+      <C.Logo>
+        <C.LinkSidebar
+          to='/'
+          style={!sidebarOpen ? { width: 'fit-content' } : {}}
+        >
+          <C.IconBlank />
+          {sidebarOpen && (
+            <>
+              <C.LogoTitle>BLANK</C.LogoTitle>
+            </>
+          )}
+        </C.LinkSidebar>
       </C.Logo>
+
       <C.Search
         onClick={searchClickHandle}
         style={!sidebarOpen ? { width: 'fit-content' } : {}}
       >
         <C.SearchIcon>
-          <AiOutlineSearch />
+          {/* <AiOutlineSearch /> */}
+          <C.IconSearch />
         </C.SearchIcon>
         <input
           ref={searchRef}
