@@ -69,7 +69,7 @@ export const MainHome = () => {
               <span>Name Product</span>
               <span>00/00/0000</span>
               <span>R$ 0.00</span>
-              <span className='desactive'>desactive</span>
+              <span className='desactive'>Inactive</span>
             </li>
 
             <li>
@@ -97,7 +97,7 @@ export const MainHome = () => {
               <span>Name Product</span>
               <span>00/00/0000</span>
               <span>R$ 0.00</span>
-              <span className='desactive'>desactive</span>
+              <span className='desactive'>Inactive</span>
             </li>
 
             <li>
@@ -125,7 +125,7 @@ export const MainHome = () => {
               <span>Name Product</span>
               <span>00/00/0000</span>
               <span>R$ 0.00</span>
-              <span className='desactive'>desactive</span>
+              <span className='desactive'>Inactive</span>
             </li>
           </ul>
         </C.MainProduct>

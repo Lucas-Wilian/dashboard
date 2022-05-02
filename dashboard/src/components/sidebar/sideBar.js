@@ -83,7 +83,6 @@ export const SideBar = () => {
         style={!sidebarOpen ? { width: 'fit-content' } : {}}
       >
         <C.SearchIcon>
-          {/* <AiOutlineSearch /> */}
           <C.IconSearch />
         </C.SearchIcon>
         <input

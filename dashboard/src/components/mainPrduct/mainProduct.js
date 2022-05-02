@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import * as C from './styles';
 import { ButtonStyle } from './../buttonStyle/buttonStyle';
 import { ProductItem } from '../productItem/ProductItem';
+import { FormResgister } from '../formRegister/formRegister';
 
 import Modal from 'react-modal';
 
@@ -36,7 +37,7 @@ export const MainProduct = () => {
           onRequestClose={handleClosemodal}
           style={customStyle}
         >
-          <h1>oi</h1>
+          <FormResgister />
         </Modal>
       </>
       <C.Header>
