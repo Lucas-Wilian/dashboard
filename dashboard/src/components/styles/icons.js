@@ -8,5 +8,6 @@ export {
   AiFillProject,
   AiFillMessage,
   AiOutlineLeft,
+  AiOutlineClose,
 } from 'react-icons/ai';
 export { FaGhost, FaShoppingCart, FaUserAlt } from 'react-icons/fa';

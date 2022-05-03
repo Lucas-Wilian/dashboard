@@ -8,7 +8,7 @@ export const Container = styled.button`
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  height: auto;
+  height: 100%;
   background: ${(props) =>
     props.style ? ({ theme }) => theme.bluePrimary : ({ theme }) => theme.bg2};
   border: 1px solid

@@ -3,58 +3,13 @@
     {
       "id": 1,
       "title": "produto 01",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
+      "description": "Teste description",
       "price": "10.00",
       "promotion": "0.00",
+      "priceCredit":"0",
+      "credit": "0",
       "active": true
-    },
-    {
-      "id": 2,
-      "title": "produto 02",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
-      "price": "10.00",
-      "promotion": "0.00",
-      "active": true
-    },
-    {
-      "id": 3,
-      "title": "produto 03",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
-      "price": "10.00",
-      "promotion": "0.00",
-      "active": false
-    },
-    {
-      "id": 4,
-      "title": "produto 04",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
-      "price": "10.00",
-      "promotion": "0.00",
-      "active": true
-    },
-    {
-      "id": 5,
-      "title": "produto 05",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum tortor, condimentum id justo ut, tempus volutpat velit. Duis sit amet interdum orci.",
-      "price": "10.00",
-      "promotion": "0.00",
-      "active": false
-    },
-    {
-      "id": 6,
-      "title": "produto 05",
-      "description": "Teste",
-      "price": "10.00",
-      "promotion": "0.00",
-      "active": true
-    },
-    {
-      "id": 8,
-      "title": "produto 05",
-      "description": "Teste",
-      "price": "10.00",
-      "promotion": "0.00",
-      "active": false
     }
+    
   ]
 }
